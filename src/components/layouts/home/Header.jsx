@@ -13,6 +13,7 @@ class Header extends Component {
       behavior: "smooth"
     });
   }
+
     render() {
         return (
             <header id="header" className="header header-style1">
@@ -33,23 +34,12 @@ class Header extends Component {
                                             ))
                                         }                           
                                         <li><Link to="#" onClick={() => {window.location.href = '/blog'}}>Blog</Link>
-                                            {/* <ul className="sub-menu" >
-                                                {
-                                                    bloglinks.map(data => (
-                                                        <li key={data.id}>
-                                                            <Link to={data.toblog} onClick={() => {window.location.href=data.toblog}}>
-                                                                {data.nameblog}
-                                                            </Link>
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul> */}
                                         </li> 
                                     </ul>
                                 </nav>
                             </div>
                             <div className="hire-me-s1 btn-general btn-hv-common d-lg-flex align-items-center">
-                                <Link to="#" className="btn-inner border-corner2 lt-sp08 text-white">Hire Me</Link>
+                                <Link onClick={() => document.getElementById("footer").scrollIntoView()} className="btn-inner border-corner2 lt-sp08 text-white click-model">Hire Me</Link>
                             </div>
                         </div>
                         <div dir="rtl" className="btn-menu mobile-header__menu-button">

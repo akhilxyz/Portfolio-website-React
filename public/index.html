@@ -30,6 +30,15 @@
     <div id="root"> 
     </div>
     <a id="scroll-top"></a>
+    <script>
+      if ('serviceWorker' in navigator){
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./serviceWorker.js')
+              .then((reg) => console.log("Success :", reg.scope))
+              .catch((err) =>  console.log("Failure :", err))
+          })
+      }
+    </script>
     <script src="%PUBLIC_URL%/javascript/jquery.min.js"></script>
     <script src="%PUBLIC_URL%/javascript/plugins.js"></script>
     <script src="%PUBLIC_URL%/javascript/jquery-ui.js"></script>

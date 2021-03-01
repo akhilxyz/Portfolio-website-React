@@ -83,7 +83,11 @@ class Home extends Component {
                         <Education />
                     </div>
                 </div>
-                <Footer />
+                <section className="footer">
+                    <div id="footer">
+                    <Footer />
+                    </div>
+                    </section>
             </div>
         );
     }
