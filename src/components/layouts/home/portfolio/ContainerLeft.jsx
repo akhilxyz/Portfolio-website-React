@@ -20,7 +20,7 @@ class ContainerLeft extends Component {
                         </p>
                     </div>
                     <div className="fl-btn btn-general btn-hv-border">
-                        <Link to="#" className="f-w500 text-one color-1 lt-sp1 border-corner2">View Case Study</Link>
+                        {/* <Link to="#" className="f-w500 text-one color-1 lt-sp1 border-corner2">View Case Study</Link> */}
                     </div>
                 </div>
           </div>

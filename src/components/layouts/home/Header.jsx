@@ -33,8 +33,8 @@ class Header extends Component {
                                                 <li key={menu.id}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
                                             ))
                                         }                           
-                                        <li><Link to="#" onClick={() => {window.location.href = '/blog'}}>Blog</Link>
-                                        </li> 
+                                        {/* <li><Link to="#" onClick={() => {window.location.href = '/blog'}}>Blog</Link>
+                                        </li>  */}
                                     </ul>
                                 </nav>
                             </div>

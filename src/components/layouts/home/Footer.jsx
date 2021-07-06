@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 class Footer extends Component {
     render() {
         return (          
@@ -20,9 +20,9 @@ class Footer extends Component {
                         </div>
                         <div className="col-lg-12">
                             <div className="site-list site-list-pdl text-center">
-                            <Link to="#" className="bg-s1"><i className="fa fa-twitter" aria-hidden="true" /></Link>
-                            <Link to="#" className="bg-s2"><i className="fa fa-behance" aria-hidden="true" /></Link>
-                            <Link to="#" className="bg-s3"><span className="icon-dribble" /></Link>
+                            <a target="_blank" href="https://twitter.com/itsyourboyakhil" className="bg-s1"><i className="fa fa-twitter" aria-hidden="true" /></a>
+                            <a target="_blank" href="https://twitter.com/itsyourboyakhil" className="bg-s2"><i className="fa fa-facebook" aria-hidden="true" /></a>
+                            <a target="_blank" href="https://twitter.com/itsyourboyakhil" className="bg-s3"><span className="fa fa-instagram" /></a>
                             </div>
                         </div>
                         </div>
@@ -34,9 +34,9 @@ class Footer extends Component {
                         © Akhil Choudhary, 2020 All rights reserved.
                         </div>
                         <div className="socials-list color-s1">
-                        <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
-                        <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
-                        <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
+                        <a  target="_blank" href="https://www.facebook.com/Itsyourboyakhil/" ><i className="fa fa-facebook" aria-hidden="true" /></a>
+                        <a target="_blank" href="https://twitter.com/itsyourboyakhil"  ><i className="fa fa-twitter" aria-hidden="true" /></a>
+                        <a target="_blank" href="https://www.instagram.com/akhilchoudharry/" ><i className="fa fa-instagram" aria-hidden="true" /></a>
                         </div>
                     </div>
                     </div>
