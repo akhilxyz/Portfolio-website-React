@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 class Banner extends Component {
   render() {
@@ -37,12 +37,16 @@ class Banner extends Component {
                 data-wow-delay="0.5s"
               >
                 <div className="fl-btn btn-general btn-hv-border">
-                  <Link
+                <a target="_blank" rel="noopener noreferrer" 
+                href="https://drive.google.com/file/d/1MGVwHGSZ8qc5D6P6hKvMedrw8b7Fo_Nu/view?usp=sharing" 
+                className="border-corner5 f-w500 lt-sp095 text-white " >Download Resume</a>
+
+                  {/* <Link
                     to="#"
                     className="border-corner5 f-w500 lt-sp095 text-white "
                   >
                     Download Resume
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
