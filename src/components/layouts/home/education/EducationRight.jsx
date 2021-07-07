@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 class EducationRight extends Component {
     constructor(props){
@@ -54,10 +54,9 @@ class EducationRight extends Component {
                                 </li>
                             ))
                         }
-                        
                     </ul>
                     <div className="fl-btn btn-general btn-hv-border">
-                    <a href="https://drive.google.com/file/d/1MGVwHGSZ8qc5D6P6hKvMedrw8b7Fo_Nu/view?usp=sharing" className="f-w500 lt-sp1 border-corner2 text-one" target="_blank">Download Resume</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1MGVwHGSZ8qc5D6P6hKvMedrw8b7Fo_Nu/view?usp=sharing" className="f-w500 lt-sp1 border-corner2 text-one" >Download Resume</a>
                     </div>
                 </div>
             </div>
