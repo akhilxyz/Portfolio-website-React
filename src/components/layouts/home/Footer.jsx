@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 // import {Link} from 'react-router-dom'
+import moment from 'moment'
+
 class Footer extends Component {
+    state = {
+         year :moment().year()
+    }
     render() {
+        let year = this.state.year
         return (          
             <div className="section slide-personal-Intro-sixth slide-dark" id="contact">                
                 <footer id="footer" className="footer footer-s1 footer-s1-home1">
@@ -31,7 +37,7 @@ class Footer extends Component {
                     <div id="bottom" className="bottom-s1">
                     <div className="container d-lg-flex justify-content-between">
                         <div className="copyright lt-sp02">
-                        © Akhil Choudhary, 2020 All rights reserved.
+                        © Akhil Choudhary, {year} All rights reserved.
                         </div>
                         <div className="socials-list color-s1">
                         <a  target="_blank" rel="noreferrer" href="https://www.facebook.com/Itsyourboyakhil/" ><i className="fa fa-facebook" aria-hidden="true" />{' '}</a>
