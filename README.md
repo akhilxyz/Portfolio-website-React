@@ -19,6 +19,5 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ### Demo
-![Alt Text](https://github.com/akhilxyz/Portfolio-website-React/blob/main/public/images/page-title/Akhil%20-%20Portfoli.png)
-
+https://akhilchoudhary.in/
 
