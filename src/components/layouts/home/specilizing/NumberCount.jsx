@@ -8,13 +8,13 @@ class NumberCount extends Component {
                 {
                     id: 1,
                     item: 'f-item color-s1 counter mg-f-item1',
-                    datato: '50+',
-                    text: 'Hapy Client'
+                    datato: '50',
+                    text: 'Happy Client'
                 },
                 {
                     id: 2,
                     item: 'f-item color-s1 counter mg-f-item2',
-                    datato: '30+',
+                    datato: '30',
                     text: 'Review'
                 }
             ],
@@ -22,7 +22,7 @@ class NumberCount extends Component {
                 {
                     id: 3,
                     item: 'f-item color-s1 counter mg-f-item3',
-                    datato: '45+',
+                    datato: '45',
                     text: 'Project Complate'
                 }
             ]
@@ -38,7 +38,7 @@ class NumberCount extends Component {
                                 <div className={data.item} key={data.id}>
                                     <div className="counter-box bg-s1 d-flex justify-content-center align-items-center">
                                         <div className="inner">
-                                            <span className="numb-count" data-from={0} data-to={data.datato} data-speed={2000} data-inviewport="yes">{data.datato}</span>
+                                            <span className="numb-count" data-from={0} data-to={data.datato} data-speed={2000} data-inviewport="yes">{data.datato}{' '} + </span>
                                             <p>{data.text}</p>
                                         </div>
                                     </div>
