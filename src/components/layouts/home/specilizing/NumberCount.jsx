@@ -20,7 +20,7 @@ class NumberCount extends Component {
             ],
             colright: [
                 {
-                    id: 1,
+                    id: 3,
                     item: 'f-item color-s1 counter mg-f-item3',
                     datato: '45+',
                     text: 'Project Complate'
